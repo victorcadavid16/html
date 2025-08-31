@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MI PRIMERA WEB</title>
+</head>
+<body>
+<header>
+  <h1>Github</h1>
+  <nav>
+    <ul>
+      <li><a href="https://github.com/dashboard">Inicio</a></li>
+      <li><a href="https://github.com/victorcadavid16/html">Repositorio</a></li>
+      <li><a href="https://github.com/victorcadavid16/html/settings">Settings</a></li>
+      <li><a href="https://github.com/victorcadavid16/html/settings/pages">Pages</a></li>
+      <li><a href="formulario.html">Formulario</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <article>
+    <h2>Que es Github</h2>
+    <p>Es una plataforma para alojar repositorio</p>
+  </article>
+
+  <section id="inicio"> 
+    <h2>Usa git bash</h2>
+    <p>para manejar un sistema de control de versiones</p>
+  </section>
+
+</main>
+
+<aside>
+  <h3>Github y Git bash </h3>
+  <p>Trabajan de la mano en el desarrollo</p>
+</aside>
+
+<form action="" method="post">
+  <div> 
+    <label for="texto">Formulario de contacto</label>
+  </div>
+  <div>
+    <input type="number" id="numero" name="numero" min="10" max="11" required> 
+    
+  </div>
+  <div>
+    <button>enviar</button>
+    
+  </div><br>
+  <div>
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="50" placeholder="Escribe tu nombre">
+      <br>
+      <button>enviar</button>
+  </div>
+</form><br>
+<img src="logo.jpg" alt="Logo de github" width="200">
+<br>
+<br>
+<table border="1"cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Correo</th>
+      <th>Telefono</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>victor cadavid</td>
+      <td>victorcadavid16@gmail.com</td>
+      <td>3174531606</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3">Total de registros: 1</td>
+    </tr>
+  </tfoot>
+</table>
+<br>
+<section id="registro">
+  <h2>Formulario de registro</h2>
+  <form action="procesar_registro.php" method="post">
+
+    <fieldset>
+
+      <legend>Datos Personales</legend>
+    <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre">
+
+  <label for="apellidos">apellidos:</label>
+  <input type="text" id="apellidos" name="apellidos">
+
+  <label for="telefono">Teléfono:</label> 
+  <input type="tel" id="telefono" name="telefono">
+</fieldset>
+<fieldset>
+  <legend>Ubicacion</legend>
+  <label for="direccion">direccion:</label>
+  <input type="text" id="direccion" name="direccion">
+</fieldset>
+  <fieldset>
+    <legend>Intereses y genero</legend>
+  <label for="gustos">gustos:</label>
+  <input type="text" id="gustos" name="gustos">
+
+  <label for="genero">genero</label>
+  <input type="radio" id="genero-m" nombre="genero" value="masculino">
+  <label for="genero-m">masculino</label>
+
+  <input type="radio" id="genero-f" nombre="genero" value="femenino">
+  <label for="genero-f">femenino</label>
+
+  <input type="radio" id="genero-o" nombre="genero" value="otro">
+  <label for="genero-o">otro</label>
+</fieldset>
+  <button>enviar</button>
+  </form>
+</section>
+<nav>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/">curso de html</a></li>
+    <a href="#inicio">Inicio</a>
+  </ul>
+</nav>
+
+<footer>
+  <p>&copy;  Mi Sitio Web. Tiene todos los derechos reservados.</p>
+</footer>
+
+
+</body>
+</html>
